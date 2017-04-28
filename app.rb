@@ -2,5 +2,5 @@ require 'sinatra'
 require 'socket'
 
 get '/' do
-  Socket.gethostname
+  "#{Socket.gethostname}\n"
 end
